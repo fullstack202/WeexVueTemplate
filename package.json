@@ -1,0 +1,41 @@
+{
+  "name": "weex-vue-template",
+  "version": "0.1.0",
+  "description": "Weex Vue template project",
+  "main": "webpack.config.js",
+  "scripts": {
+    "build": "webpack",
+    "dev": "webpack --watch"
+  },
+  "keywords": [
+    "weex",
+    "vue"
+  ],
+  "author": "Hanks <zhanghan.me@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/runtime": "^7.0.0",
+    "autoprefixer": "^9.4.0",
+    "postcss-loader": "^3.0.0",
+    "postcss-plugin-px2rem": "^0.8.0",
+    "postcss-plugin-weex": "^0.1.7",
+    "weex-vue-precompiler": "^0.1.25"
+  },
+  "devDependencies": {
+    "@babel/core": "7.2.0",
+    "@babel/plugin-transform-runtime": "7.2.0",
+    "@babel/preset-env": "7.2.0",
+    "babel-loader": "8.0.4",
+    "css-loader": "2.0.0",
+    "style-loader": "0.23.1",
+    "uglifyjs-webpack-plugin": "2.0.1",
+    "vue": "2.5.19",
+    "vue-loader": "15.4.2",
+    "vue-style-loader": "4.1.2",
+    "vue-template-compiler": "2.5.19",
+    "webpack": "4.27.1",
+    "webpack-cli": "3.1.2",
+    "webpack-dev-server": "3.1.10",
+    "weex-loader": "0.7.12"
+  }
+}
